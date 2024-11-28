@@ -1,0 +1,12 @@
+[
+    {
+        "pregunta" : "FILA1-1",
+        "respuestas": ["a) Observar a la gente cuando viajo","b) Observar el paisaje cuando viajo","c) Observar las cosechas cuando viajo"]
+    }, {
+        "pregunta" : "FILA1-2",
+        "respuestas": ["d) Observar a la gente cuando viajo","e) Tomar nota del tránsito que pasa por cierto punto","f) Interrogar a la gente en una encuesta de opinión pública"]
+    }, {
+        "pregunta" : "FILA1-3",
+        "respuestas": ["g )Participar en las diversiones de una feria","h) Contemplar la exposición de productos envasados en una feria","i) Contemplar la exposición de productos naturales en una feria"]
+    }
+]
