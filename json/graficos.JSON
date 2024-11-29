@@ -1,0 +1,42 @@
+[
+    {
+        "categoria": "Veracidad",
+        "resultado": 50
+    },
+    {
+        "categoria": "Mecanico",
+        "resultado": 80
+    },
+    {
+        "categoria":"Calculo",
+        "resultado":85
+    },
+    {
+        "categoria": "Cientifico",
+        "resultado":97
+    },
+    {
+        "categoria":"Persuasivo",
+        "resultado":30
+    },
+    {
+        "categoria":"Artistico",
+        "resultado":65
+    },
+    {
+        "categoria":"Literario",
+        "resultado":65
+    },
+    {
+        "categoria":"Musical",
+        "resultado":55
+    },
+    {
+        "categoria":"Asistencial",
+        "resultado":35
+    },
+    {
+        "categoria":"Administrativo",
+        "resultado":15
+    }
+]

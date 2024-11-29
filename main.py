@@ -2,7 +2,7 @@ import tkinter
 from forms.registro import abrir_formulario
 from forms.test1 import mostrar_test1
 from forms.test2 import mostrar_test2
-
+from forms.test3 import mostrar_grafico
 
 mainVentana = tkinter.Tk()
 #ancho x alto
@@ -19,7 +19,7 @@ btnTest01.pack()
 btnTest02 = tkinter.Button(mainVentana, text="Prueba2-liked-disliked", command=mostrar_test2)
 btnTest02.pack()
 
-btnTest_results = tkinter.Button(mainVentana, text="test GRAFICOS")
+btnTest_results = tkinter.Button(mainVentana, text="test GRAFICOS", command=mostrar_grafico)
 btnTest_results.pack()
 
 #correr funcion principal
