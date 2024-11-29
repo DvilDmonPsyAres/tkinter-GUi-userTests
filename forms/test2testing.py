@@ -15,40 +15,12 @@ def mostrar_test2():
     ven = tk.Toplevel()
     ven.title('Test-02')
 
-    # Crear un Frame en el Toplevel para contener los widgets desplazables
-    frame = tk.Frame(ven)
-    frame.pack(fill=tk.BOTH, expand=True)
-
-    # Crear un Canvas en el Frame para permitir el desplazamiento
-    canvas = tk.Canvas(frame)
-    canvas.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
-
-    # Crear un Scrollbar y asociarlo al Canvas
-    scrollbar = tk.Scrollbar(frame, orient="vertical", command=canvas.yview)
-    scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
-
-    # Configurar el Canvas para que responda al Scrollbar
-    canvas.config(yscrollcommand=scrollbar.set)
-
-    # Crear un Frame dentro del Canvas para agregar contenido desplazable
-    content_frame = tk.Frame(canvas)
-
-    # Agregar el Frame al Canvas
-    canvas.create_window((0, 0), window=content_frame, anchor="nw")
-
-
-
-    # Actualizar la región del Canvas para permitir el desplazamiento
-    content_frame.update_idletasks()
-    canvas.config(scrollregion=canvas.bbox("all"))
-
-
     # Almacenar los resultados para todas las preguntas
     resultados = []
 
     for idx, pregunta in enumerate(test):
         # Crear un marco para cada pregunta
-        pregunta_frame = tk.Frame(content_frame)
+        pregunta_frame = tk.Frame(ven)
         pregunta_frame.pack(fill="x", pady=10, padx=10)
 
         # Mostrar la pregunta
@@ -111,10 +83,6 @@ def mostrar_test2():
             "variables": opciones_var
         })
 
-    # Actualizar la región desplazable del Canvas después de agregar todas las preguntas
-    content_frame.update_idletasks()
-    canvas.config(scrollregion=canvas.bbox("all"))
-
     # Botón para enviar respuestas
     def enviar_respuestas():
         respuestas_completas = []
@@ -131,3 +99,46 @@ def mostrar_test2():
         ven.quit()
 
     tk.Button(ven, text="Enviar", command=enviar_respuestas).pack(pady=10)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    # Crear un Frame en el Toplevel para contener los widgets desplazables
+    frame = tk.Frame(ven)
+    frame.pack(fill=tk.BOTH, expand=True)
+
+    # Crear un Canvas en el Frame para permitir el desplazamiento
+    canvas = tk.Canvas(frame)
+    canvas.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+
+    # Crear un Scrollbar y asociarlo al Canvas
+    scrollbar = tk.Scrollbar(frame, orient="vertical", command=canvas.yview)
+    scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
+
+    # Configurar el Canvas para que responda al Scrollbar
+    canvas.config(yscrollcommand=scrollbar.set)
+
+    # Crear un Frame dentro del Canvas para agregar contenido desplazable
+    content_frame = tk.Frame(canvas)
+
+    # Agregar el Frame al Canvas
+    canvas.create_window((0, 0), window=content_frame, anchor="nw")
+
+    # Agregar algunos widgets de ejemplo al content_frame
+    for i in range(30):
+        tk.Label(content_frame, text=f"Elemento {i+1}").grid(row=i, column=0, pady=2)
+
+    # Actualizar la región del Canvas para permitir el desplazamiento
+    content_frame.update_idletasks()
+    canvas.config(scrollregion=canvas.bbox("all"))

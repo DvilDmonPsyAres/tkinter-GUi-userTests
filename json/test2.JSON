@@ -1,12 +1,114 @@
 [
     {
-        "pregunta" : "FILA1-1",
-        "respuestas": ["a) Observar a la gente cuando viajo","b) Observar el paisaje cuando viajo","c) Observar las cosechas cuando viajo"]
-    }, {
-        "pregunta" : "FILA1-2",
-        "respuestas": ["d) Observar a la gente cuando viajo","e) Tomar nota del tránsito que pasa por cierto punto","f) Interrogar a la gente en una encuesta de opinión pública"]
-    }, {
-        "pregunta" : "FILA1-3",
-        "respuestas": ["g )Participar en las diversiones de una feria","h) Contemplar la exposición de productos envasados en una feria","i) Contemplar la exposición de productos naturales en una feria"]
+        "pregunta": "FILA1-1",
+        "respuestas": [
+            "a) En sus viajes observar de preferencia la gente",
+            "b) En sus viajes observar de preferencia los paisajes",
+            "c) En sus viajes observar de preferencia los cultivos"
+        ]
+    },
+    {
+        "pregunta": "FILA1-2",
+        "respuestas": [
+            "d) Ayudarse económicamente dedicando varias horas diarias a leerle a un ciego",
+            "e) Ayudarse económicamente llevando la estadística de vehículos que pasan por un retén",
+            "f) Ayudarse económicamente haciendo encuestas entre el público"
+        ]
+    },
+    {
+        "pregunta": "FILA1-3",
+        "respuestas": [
+            "g) Visitar lugares de diversión en una feria de pueblo",
+            "h) Visitar la exposición de productos alimenticios caseros en una feria de pueblo",
+            "j) Visitar la exposición de ganado en una feria de pueblo"
+        ]
+    },
+    {
+        "pregunta": "FILA1-4",
+        "respuestas": [
+            "k) Hacer ejercicios de atletismo",
+            "l) Ir a pescar",
+            "m) Jugar fútbol"
+        ]
+    },
+    {
+        "pregunta": "FILA1-5",
+        "respuestas": [
+            "n) Hojear libros y revistas en una librería",
+            "p) Presenciar el ensayo de una orquesta",
+            "q) Visitar un jardín zoológico"
+        ]
+    },
+    {
+        "pregunta": "FILA1-6",
+        "respuestas": [
+            "r) Coleccionar autógrafos de célebres personajes",
+            "s) Coleccionar mariposas",
+            "t) Coleccionar muestras de maderas"
+        ]
+    },
+    {
+        "pregunta": "FILA1-7",
+        "respuestas": [
+            "u) Visitar una exposición de cuadros famosos",
+            "v) Visitar una exposición de distintos medios de transporte",
+            "w) Visitar una exposición de equipos de laboratorio"
+        ]
+    },
+    {
+        "pregunta": "FILA1-8",
+        "respuestas": [
+            "x) Vender frutas",
+            "y) Ser pianista profesional",
+            "z) Cultivar hortalizas"
+        ]
+    },
+    {
+        "pregunta": "FILA1-9",
+        "respuestas": [
+            "a) Dirigir la organización de una fiesta en un club social",
+            "b) Decorar el salón para la fiesta",
+            "c) Repartir las invitaciones para la fiesta"
+        ]
+    },
+    {
+        "pregunta": "FILA1-10",
+        "respuestas": [
+            "d) Visitar un museo de ciencias",
+            "e) Visitar una empresa periodística",
+            "f) Visitar una fábrica de máquinas de escribir"
+        ]
+    },
+    {
+        "pregunta": "FILA1-11",
+        "respuestas": [
+            "g) Leer para distraer a una persona enferma",
+            "h) Enseñar tretas a un perro",
+            "j) Desarmar un juguete dañado para ver cómo se arregla"
+        ]
+    },
+    {
+        "pregunta": "FILA1-12",
+        "respuestas": [
+            "k) Recibir clases de dibujo",
+            "l) Recibir clases de biología",
+            "m) Recibir clases de metalistería"
+        ]
+    },
+    {
+        "pregunta": "FILA1-13",
+        "respuestas": [
+            "n) Construir pajareras",
+            "p) Escribir artículos sobre las aves",
+            "q) Dibujar las aves"
+        ]
+    },
+    {
+        "pregunta": "FILA1-14",
+        "respuestas": [
+            "r) Tratar de arreglar una máquina de coser dañada",
+            "s) Tocar piano",
+            "t) Hacer el bosquejo de una escena interesante"
+        ]
     }
 ]
