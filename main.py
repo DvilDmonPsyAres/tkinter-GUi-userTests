@@ -4,6 +4,8 @@ from forms.test1 import mostrar_test1
 from forms.kuder import mostrar_test2
 from forms.graficos import mostrar_grafico
 from forms.respuestas import testPrinting
+from forms.checkboxtest2 import checkbox
+
 
 mainVentana = tkinter.Tk()
 #ancho x alto
@@ -25,6 +27,10 @@ btnTest_results.pack()
 
 test_BTN = tkinter.Button(mainVentana, text="test respuestas completas", command=testPrinting)
 test_BTN.pack()
+
+checkbox_BTN = tkinter.Button(mainVentana, text="checkbox", command=checkbox)
+checkbox_BTN.pack()
+
 
 #correr funcion principal
 mainVentana.mainloop()
