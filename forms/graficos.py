@@ -29,29 +29,6 @@ def mostrar_grafico():
     categorias = read_results()[0]
     resultados = read_results()[1]
 
-    # Función para actualizar el gráfico
-    def grafico_de_barras():
-
-        # Crear figura para Matplotlib
-        fig = Figure(figsize=(6, 4), dpi=100)
-        ax = fig.add_subplot(111)  # Subgráfico 1x1
-
-        # Lienzo para integrar el gráfico en Tkinter
-        canvas = FigureCanvasTkAgg(fig, master=ventana)
-        canvas.get_tk_widget().pack(side=tk.TOP, fill=tk.BOTH, expand=True)
-
-        # Limpia el gráfico anterior
-        ax.clear()
-        
-        # Crear gráfico de barras
-        ax.bar(categorias, resultados, color='skyblue')
-        ax.set_title("Resultados por Categoría")
-        ax.set_ylabel("Puntajes")
-        ax.set_xlabel("Categorías")
-        
-        # Actualizar el lienzo
-        canvas.draw()
-
     def linea_base_50():
         #linea base
         linea_base = 50
@@ -86,9 +63,5 @@ def mostrar_grafico():
         plt.tight_layout()
         plt.show()
 
-    # Botón para actualizar el gráfico
-    btn_actualizar = ttk.Button(ventana, text="grafico de Barras", command=grafico_de_barras)
-    btn_actualizar.pack(side=tk.BOTTOM)
-
-    #grafics console tes
+    #boton para mostrar el grafico
     btn_transfigurar_resultado= ttk.Button(ventana, text="KUDER C", command=linea_base_50).pack(pady=20)
