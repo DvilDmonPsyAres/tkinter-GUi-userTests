@@ -1,6 +1,7 @@
 import tkinter as tk
 from tkinter import messagebox
 import json
+from .respuestas import appendRespuestas
 
 # Abrir y cargar archivo JSON
 def cargar_test():
@@ -128,6 +129,7 @@ def mostrar_test2():
                 "respuestas": seleccionados
             })
         print("Resultados finales:", respuestas_completas)
+        appendRespuestas(respuestas_completas)
         ven.quit()
 
     tk.Button(ven, text="Enviar", command=enviar_respuestas).pack(pady=10)

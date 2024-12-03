@@ -1,9 +1,17 @@
+import json
+
+
+#current_dir = pathlib
+
+
 respuestas_completas = [{'pregunta': 'FILA1-1', 'respuestas': ['+', '-', '']}, {'pregunta': 'FILA1-2', 'respuestas': ['', '+', '-']}, {'pregunta': 'FILA1-3', 'respuestas': ['-', '', '+']}, {'pregunta': 'FILA1-4', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-5', 'respuestas': ['+', '-', '']}, {'pregunta': 'FILA1-6', 'respuestas': ['+', '-', '']}, {'pregunta': 'FILA1-7', 'respuestas': ['-', '', '+']}, {'pregunta': 'FILA1-8', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-9', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-10', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-11', 'respuestas': ['-', '', '+']}, {'pregunta': 'FILA1-12', 'respuestas': ['+', '-', '']}, {'pregunta': 'FILA1-13', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-14', 'respuestas': ['+', '-', '']},{'pregunta': 'FILA1-1', 'respuestas': ['+', '-', '']}, {'pregunta': 'FILA1-2', 'respuestas': ['', '+', '-']}, {'pregunta': 'FILA1-3', 'respuestas': ['-', '', '+']}, {'pregunta': 'FILA1-4', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-5', 'respuestas': ['+', '-', '']}, {'pregunta': 'FILA1-6', 'respuestas': ['+', '-', '']}, {'pregunta': 'FILA1-7', 'respuestas': ['-', '', '+']}, {'pregunta': 'FILA1-8', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-9', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-10', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-11', 'respuestas': ['-', '', '+']}, {'pregunta': 'FILA1-12', 'respuestas': ['+', '-', '']}, {'pregunta': 'FILA1-13', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-14', 'respuestas': ['+', '-', '']},{'pregunta': 'FILA1-1', 'respuestas': ['+', '-', '']}, {'pregunta': 'FILA1-2', 'respuestas': ['', '+', '-']}, {'pregunta': 'FILA1-3', 'respuestas': ['-', '', '+']}, {'pregunta': 'FILA1-4', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-5', 'respuestas': ['+', '-', '']}, {'pregunta': 'FILA1-6', 'respuestas': ['+', '-', '']}, {'pregunta': 'FILA1-7', 'respuestas': ['-', '', '+']}, {'pregunta': 'FILA1-8', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-9', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-10', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-11', 'respuestas': ['-', '', '+']}, {'pregunta': 'FILA1-12', 'respuestas': ['+', '-', '']}, {'pregunta': 'FILA1-13', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-14', 'respuestas': ['+', '-', '']},{'pregunta': 'FILA1-1', 'respuestas': ['+', '-', '']}, {'pregunta': 'FILA1-2', 'respuestas': ['', '+', '-']}, {'pregunta': 'FILA1-3', 'respuestas': ['-', '', '+']}, {'pregunta': 'FILA1-4', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-5', 'respuestas': ['+', '-', '']}, {'pregunta': 'FILA1-6', 'respuestas': ['+', '-', '']}, {'pregunta': 'FILA1-7', 'respuestas': ['-', '', '+']}, {'pregunta': 'FILA1-8', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-9', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-10', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-11', 'respuestas': ['-', '', '+']}, {'pregunta': 'FILA1-12', 'respuestas': ['+', '-', '']}, {'pregunta': 'FILA1-13', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-14', 'respuestas': ['+', '-', '']},{'pregunta': 'FILA1-1', 'respuestas': ['+', '-', '']}, {'pregunta': 'FILA1-2', 'respuestas': ['', '+', '-']}, {'pregunta': 'FILA1-3', 'respuestas': ['-', '', '+']}, {'pregunta': 'FILA1-4', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-5', 'respuestas': ['+', '-', '']}, {'pregunta': 'FILA1-6', 'respuestas': ['+', '-', '']}, {'pregunta': 'FILA1-7', 'respuestas': ['-', '', '+']}, {'pregunta': 'FILA1-8', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-9', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-10', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-11', 'respuestas': ['-', '', '+']}, {'pregunta': 'FILA1-12', 'respuestas': ['+', '-', '']}, {'pregunta': 'FILA1-13', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-14', 'respuestas': ['+', '-', '']},{'pregunta': 'FILA1-1', 'respuestas': ['+', '-', '']}, {'pregunta': 'FILA1-2', 'respuestas': ['', '+', '-']}, {'pregunta': 'FILA1-3', 'respuestas': ['-', '', '+']}, {'pregunta': 'FILA1-4', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-5', 'respuestas': ['+', '-', '']}, {'pregunta': 'FILA1-6', 'respuestas': ['+', '-', '']}, {'pregunta': 'FILA1-7', 'respuestas': ['-', '', '+']}, {'pregunta': 'FILA1-8', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-9', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-10', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-11', 'respuestas': ['-', '', '+']}, {'pregunta': 'FILA1-12', 'respuestas': ['+', '-', '']}, {'pregunta': 'FILA1-13', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-14', 'respuestas': ['+', '-', '']},{'pregunta': 'FILA1-1', 'respuestas': ['+', '-', '']}, {'pregunta': 'FILA1-2', 'respuestas': ['', '+', '-']}, {'pregunta': 'FILA1-3', 'respuestas': ['-', '', '+']}, {'pregunta': 'FILA1-4', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-5', 'respuestas': ['+', '-', '']}, {'pregunta': 'FILA1-6', 'respuestas': ['+', '-', '']}, {'pregunta': 'FILA1-7', 'respuestas': ['-', '', '+']}, {'pregunta': 'FILA1-8', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-9', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-10', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-11', 'respuestas': ['-', '', '+']}, {'pregunta': 'FILA1-12', 'respuestas': ['+', '-', '']}, {'pregunta': 'FILA1-13', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-14', 'respuestas': ['+', '-', '']},{'pregunta': 'FILA1-1', 'respuestas': ['+', '-', '']}, {'pregunta': 'FILA1-2', 'respuestas': ['', '+', '-']}, {'pregunta': 'FILA1-3', 'respuestas': ['-', '', '+']}, {'pregunta': 'FILA1-4', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-5', 'respuestas': ['+', '-', '']}, {'pregunta': 'FILA1-6', 'respuestas': ['+', '-', '']}, {'pregunta': 'FILA1-7', 'respuestas': ['-', '', '+']}, {'pregunta': 'FILA1-8', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-9', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-10', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-11', 'respuestas': ['-', '', '+']}, {'pregunta': 'FILA1-12', 'respuestas': ['+', '-', '']}, {'pregunta': 'FILA1-13', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-14', 'respuestas': ['+', '-', '']},{'pregunta': 'FILA1-1', 'respuestas': ['+', '-', '']}, {'pregunta': 'FILA1-2', 'respuestas': ['', '+', '-']}, {'pregunta': 'FILA1-3', 'respuestas': ['-', '', '+']}, {'pregunta': 'FILA1-4', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-5', 'respuestas': ['+', '-', '']}, {'pregunta': 'FILA1-6', 'respuestas': ['+', '-', '']}, {'pregunta': 'FILA1-7', 'respuestas': ['-', '', '+']}, {'pregunta': 'FILA1-8', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-9', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-10', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-11', 'respuestas': ['-', '', '+']}, {'pregunta': 'FILA1-12', 'respuestas': ['+', '-', '']}, {'pregunta': 'FILA1-13', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-14', 'respuestas': ['+', '-', '']},{'pregunta': 'FILA1-1', 'respuestas': ['+', '-', '']}, {'pregunta': 'FILA1-2', 'respuestas': ['', '+', '-']}, {'pregunta': 'FILA1-3', 'respuestas': ['-', '', '+']}, {'pregunta': 'FILA1-4', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-5', 'respuestas': ['+', '-', '']}, {'pregunta': 'FILA1-6', 'respuestas': ['+', '-', '']}, {'pregunta': 'FILA1-7', 'respuestas': ['-', '', '+']}, {'pregunta': 'FILA1-8', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-9', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-10', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-11', 'respuestas': ['-', '', '+']}, {'pregunta': 'FILA1-12', 'respuestas': ['+', '-', '']}, {'pregunta': 'FILA1-13', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-14', 'respuestas': ['+', '-', '']},{'pregunta': 'FILA1-1', 'respuestas': ['+', '-', '']}, {'pregunta': 'FILA1-2', 'respuestas': ['', '+', '-']}, {'pregunta': 'FILA1-3', 'respuestas': ['-', '', '+']}, {'pregunta': 'FILA1-4', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-5', 'respuestas': ['+', '-', '']}, {'pregunta': 'FILA1-6', 'respuestas': ['+', '-', '']}, {'pregunta': 'FILA1-7', 'respuestas': ['-', '', '+']}, {'pregunta': 'FILA1-8', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-9', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-10', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-11', 'respuestas': ['-', '', '+']}, {'pregunta': 'FILA1-12', 'respuestas': ['+', '-', '']}, {'pregunta': 'FILA1-13', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-14', 'respuestas': ['+', '-', '']},{'pregunta': 'FILA1-1', 'respuestas': ['+', '-', '']}, {'pregunta': 'FILA1-2', 'respuestas': ['', '+', '-']}, {'pregunta': 'FILA1-3', 'respuestas': ['-', '', '+']}, {'pregunta': 'FILA1-4', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-5', 'respuestas': ['+', '-', '']}, {'pregunta': 'FILA1-6', 'respuestas': ['+', '-', '']}, {'pregunta': 'FILA1-7', 'respuestas': ['-', '', '+']}, {'pregunta': 'FILA1-8', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-9', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-10', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-11', 'respuestas': ['-', '', '+']}, {'pregunta': 'FILA1-12', 'respuestas': ['+', '-', '']}, {'pregunta': 'FILA1-13', 'respuestas': ['+', '', '-']}, {'pregunta': 'FILA1-14', 'respuestas': ['+', '-', '']},]
+
+
 
 def print_respuestas_completas():
     print('file connected:', respuestas_completas)
 
-def appendRespuestas():
+def appendRespuestas(respuestas_completas):
     all_respuestas = []
 
     for i, respuesta in enumerate(respuestas_completas): 
@@ -15,18 +23,42 @@ def appendRespuestas():
 
 #test validation kuder test
 def kuder_validator():
+    validators_paths = ['json/puntajes/VERIFICATION.JSON', 'json/puntajes/AL0.JSON', 'json/puntajes/MC1.JSON', 'json/puntajes/CL2.JSON', 'json/puntajes/CT3.JSON', 'json/puntajes/PR4.JSON', 'json/puntajes/AR5.JSON', 'json/puntajes/LT6.JSON', 'json/puntajes/MS7.JSON', 'json/puntajes/SS8.JSON', 'json/puntajes/OF9.JSON']
 
-    question_points = [7,8,22,23,24,34,35,36,46,47,48,55,56,57,64,65,66,79,80,81,85,86,139,140,141,148,149,150,160,161,162,169,170,171,184,185,186,202,203,204,214,216,238,240,256,257,258,305,306,307,308,309,331,333,358,359,360,391,392,303,409,410,411,442,443,444,463,464,465,469,470,471]
+    answers = appendRespuestas(respuestas_completas)
+    print('answers :', answers)
+    test_values = []
 
-    answers = appendRespuestas()
-    points = 0
+    # Abrir y cargar archivo JSON
+    def cargar_test(path):
+        with open(path, 'r', encoding='utf-8') as file:
+            return json.load(file)
 
-    for i, question in enumerate(question_points):
-        if answers[question_points[i] - 1] != "" :
-            points+=1
+    for path in validators_paths:
+  
+        points = 0
 
-    return {"kuder validator": points}    
+        verification = cargar_test(path)
 
-def testPrinting():
-    print_respuestas_completas()
-    print(kuder_validator())
+        for question in verification:
+            #get the question number
+            question_index = question["pregunta"] - 1
+
+            #check if the answer matches
+            if question_index < len(answers) and answers[question_index] == question["respuesta"] or (answers[question_index] != "" and question["respuesta"] == "*"):
+                points += 1
+                print(f"Match: {question['respuesta']} for question {question['pregunta']}")
+
+        # Split by '/' to isolate the last part
+        filename = path.split('/')[-1]
+
+        # Split by '.' to remove the file extension
+        identifier = filename.split('.')[0]
+
+        test_values.append({identifier:points})
+
+    return test_values   
+
+#appendRespuestas(respuestas_completas)
+
+print(kuder_validator())

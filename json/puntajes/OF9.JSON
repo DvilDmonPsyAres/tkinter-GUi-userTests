@@ -1,0 +1,530 @@
+[
+    {
+        "pregunta": 1,
+        "respuesta": "+"
+    },
+    {
+        "pregunta": 2,
+        "respuesta": "+"
+    },
+    {
+        "pregunta": 3,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 7,
+        "respuesta": "+"
+    },
+    {
+        "pregunta": 8,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 9,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 13,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 14,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 15,
+        "respuesta": "+"
+    },
+    {
+        "pregunta": 16,
+        "respuesta": "+"
+    },
+    {
+        "pregunta": 17,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 18,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 19,
+        "respuesta": "+"
+    },
+    {
+        "pregunta": 20,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 82,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 83,
+        "respuesta": "+"
+    },
+    {
+        "pregunta": 84,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 94,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 95,
+        "respuesta": "+"
+    },
+    {
+        "pregunta": 41,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 42,
+        "respuesta": "+"
+    },
+    {
+        "pregunta": 58,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 59,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 60,
+        "respuesta": "+"
+    },
+    {
+        "pregunta": 67,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 68,
+        "respuesta": "+"
+    },
+    {
+        "pregunta": 69,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 70,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 71,
+        "respuesta": "+"
+    },
+    {
+        "pregunta": 72,
+        "respuesta": "+"
+    },
+    {
+        "pregunta": 76,
+        "respuesta": "+"
+    },
+    {
+        "pregunta": 77,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 78,
+        "respuesta": "+"
+    },
+    {
+        "pregunta": 146,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 147,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 151,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 152,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 153,
+        "respuesta": "+"
+    },
+    {
+        "pregunta": 157,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 158,
+        "respuesta": "+"
+    },
+    {
+        "pregunta": 159,
+        "respuesta": "+"
+    },
+    {
+        "pregunta": 166,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 167,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 168,
+        "respuesta": "+"
+    },
+    {
+        "pregunta": 169,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 170,
+        "respuesta": "+"
+    },
+    {
+        "pregunta": 171,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 172,
+        "respuesta": "+"
+    },
+    {
+        "pregunta": 173,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 174,
+        "respuesta": "+"
+    },
+    {
+        "pregunta": 178,
+        "respuesta": "+"
+    },
+    {
+        "pregunta": 179,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 180,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 211,
+        "respuesta": "+"
+    },
+    {
+        "pregunta": 212,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 213,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 217,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 218,
+        "respuesta": "+"
+    },
+    {
+        "pregunta": 219,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 223,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 224,
+        "respuesta": "+"
+    },
+    {
+        "pregunta": 225,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 235,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 236,
+        "respuesta": "+"
+    },
+    {
+        "pregunta": 237,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 238,
+        "respuesta": "+"
+    },
+    {
+        "pregunta": 239,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 253,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 254,
+        "respuesta": "+"
+    },
+    {
+        "pregunta": 255,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 274,
+        "respuesta": "+"
+    },
+    {
+        "pregunta": 275,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 276,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 283,
+        "respuesta": "+"
+    },
+    {
+        "pregunta": 284,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 285,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 286,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 287,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 288,
+        "respuesta": "+"
+    },
+    {
+        "pregunta": 301,
+        "respuesta": "+"
+    },
+    {
+        "pregunta": 302,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 303,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 316,
+        "respuesta": "+"
+    },
+    {
+        "pregunta": 317,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 318,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 328,
+        "respuesta": "+"
+    },
+    {
+        "pregunta": 329,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 330,
+        "respuesta": "+"
+    },
+    {
+        "pregunta": 343,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 344,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 345,
+        "respuesta": "+"
+    },
+    {
+        "pregunta": 346,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 347,
+        "respuesta": "+"
+    },
+    {
+        "pregunta": 348,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 349,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 352,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 353,
+        "respuesta": "+"
+    },
+    {
+        "pregunta": 354,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 362,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 363,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 364,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 365,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 366,
+        "respuesta": "+"
+    },
+    {
+        "pregunta": 373,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 374,
+        "respuesta": "+"
+    },
+    {
+        "pregunta": 375,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 379,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 380,
+        "respuesta": "+"
+    },
+    {
+        "pregunta": 381,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 400,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 401,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 402,
+        "respuesta": "+"
+    },
+    {
+        "pregunta": 404,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 405,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 412,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 413,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 414,
+        "respuesta": "+"
+    },
+    {
+        "pregunta": 418,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 419,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 420,
+        "respuesta": "+"
+    },
+    {
+        "pregunta": 436,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 437,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 438,
+        "respuesta": "+"
+    },
+    {
+        "pregunta": 448,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 449,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 450,
+        "respuesta": "+"
+    },
+    {
+        "pregunta": 457,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 458,
+        "respuesta": "+"
+    },
+    {
+        "pregunta": 459,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 487,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 488,
+        "respuesta": "-"
+    },
+    {
+        "pregunta": 489,
+        "respuesta": "+"
+    }
+]
